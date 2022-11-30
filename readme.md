@@ -13,3 +13,7 @@ Ada box kosong bertuliskan fungsi suatu sel. Pemain memasukkan sel yang memiliki
 - https://sketchfab.com/3d-models/plant-cell-organelles-e61e7bdf8c8449a583b364f05e70289b
 - https://sketchfab.com/3d-models/animal-cell-downloadable-ddc40bb0900544959f02d3ff83c32615
 - https://sketchfab.com/3d-models/animal-cell-20-annotated-in-english-0d9f7f4257224975b2ef83a283709b2f
+
+## Laporan Kemajuan
+
+https://docs.google.com/document/d/1H7oZSNgopTOSMX7mHN4g1RGeCFFP9-Ou/edit?usp=sharing&ouid=118373161119688878664&rtpof=true&sd=true
