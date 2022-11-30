@@ -6,6 +6,7 @@ Ada 2 mode:
 Dimana nanti ada display sel kosongan dan di sekeliling pemain ada banyak sel yang mengelilingi pemain (mengorbit) lalu pemain bisa mengambil organ sel yang tepat dan dipasang ke posisi yang tepat pada sel kosongan tersebut.
 
 2. Box game
+
 Ada box kosong bertuliskan fungsi suatu sel. Pemain memasukkan sel yang memiliki fungsi tersebut ke dalam box.
 
 ## Link 3D Model
