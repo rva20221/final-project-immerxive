@@ -5,12 +5,12 @@ using UnityEngine.SceneManagement;
 public class MainMenu : MonoBehaviour
 {
     public void Mode1(){
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene("Mode1");
         Time.timeScale = 1;
     }
 
     public void Mode2(){
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene("Mode2");
         Time.timeScale = 1;
     }
 }
