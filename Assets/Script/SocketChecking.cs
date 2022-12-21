@@ -16,7 +16,9 @@ public class SocketChecking : MonoBehaviour
     {
     
         IXRSelectInteractable objName = socket.GetOldestInteractableSelected();
-    
-        score.score+= 10;
+        if(objName.transform.name == transform.name){
+            score.score+= 10;
+        }
+        
     }
 }
