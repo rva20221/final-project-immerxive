@@ -16,6 +16,13 @@ public class Scoring2 : MonoBehaviour
         ScoreText.text = "" + score;
     }
 
+    void Update(){
+        if(score == 30){
+            audioPlayer.Play();
+            winPanel.SetActive(true);
+        }
+    }
+
     public void addScore()
     {
         score+= 10;
@@ -27,11 +34,6 @@ public class Scoring2 : MonoBehaviour
         ScoreText.text = "" + score;
     }
 
-    void Update(){
-        if(score == 30){
-            audioPlayer.Play();
-            winPanel.SetActive(true);
-        }
-    }
+    
 
 }
