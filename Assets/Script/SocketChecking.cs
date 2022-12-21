@@ -12,13 +12,12 @@ public class SocketChecking : MonoBehaviour
         socket = GetComponent<XRSocketInteractor>();
         
     }
-    public void socketCheck()
+    public void addScore()
     {
-    
-        IXRSelectInteractable objName = socket.GetOldestInteractableSelected();
-        if(objName.transform.name == transform.name){
-            score.score+= 10;
-        }
-        
+        score.score+= 10;
+    }
+
+    public void minScore(){
+        score.score-= 10;
     }
 }
