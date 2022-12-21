@@ -1730,7 +1730,7 @@ MonoBehaviour:
   m_SelectEntered:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1452074828}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: Scoring, Assembly-CSharp
         m_MethodName: addScore
         m_Mode: 1
@@ -1745,7 +1745,7 @@ MonoBehaviour:
   m_SelectExited:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1452074828}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: Scoring, Assembly-CSharp
         m_MethodName: minScore
         m_Mode: 1
@@ -1917,7 +1917,7 @@ MonoBehaviour:
   m_SelectEntered:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1452074828}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: Scoring, Assembly-CSharp
         m_MethodName: addScore
         m_Mode: 1
@@ -1932,7 +1932,7 @@ MonoBehaviour:
   m_SelectExited:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1452074828}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: Scoring, Assembly-CSharp
         m_MethodName: minScore
         m_Mode: 1
@@ -4339,7 +4339,7 @@ MonoBehaviour:
   m_SelectEntered:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1452074828}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: Scoring, Assembly-CSharp
         m_MethodName: addScore
         m_Mode: 1
@@ -4354,7 +4354,7 @@ MonoBehaviour:
   m_SelectExited:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1452074828}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: Scoring, Assembly-CSharp
         m_MethodName: minScore
         m_Mode: 1
@@ -4774,7 +4774,7 @@ AudioSource:
   SpatializePostEffects: 0
   Priority: 131
   DopplerLevel: 1
-  MinDistance: 4.4541144
+  MinDistance: 3.8184671
   MaxDistance: 500
   Pan2D: 0
   rolloffMode: 0
@@ -5106,7 +5106,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1452074829}
-  - component: {fileID: 1452074828}
   - component: {fileID: 1452074830}
   - component: {fileID: 1452074831}
   m_Layer: 0
@@ -5116,23 +5115,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1452074828
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1452074827}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8b740abee1fff8448ad4c3c4a58f670c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ScoreText: {fileID: 367642747}
-  score: 0
-  audioPlayer: {fileID: 1402673728}
-  winSound: {fileID: 8300000, guid: 2217c060aad205a478fea7cbba9aa436, type: 3}
-  winPanel: {fileID: 849487028}
 --- !u!4 &1452074829
 Transform:
   m_ObjectHideFlags: 0

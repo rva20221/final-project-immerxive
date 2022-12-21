@@ -29,8 +29,8 @@ public class Scoring : MonoBehaviour
 
     void Update(){
         if(score == 50){
-            winPanel.SetActive(true);
             audioPlayer.Play();
+            winPanel.SetActive(true);
         }
     }
 
