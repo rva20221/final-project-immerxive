@@ -5175,7 +5175,7 @@ MonoBehaviour:
   ScoreText: {fileID: 367642747}
   score: 0
   audioPlayer: {fileID: 1402673728}
-  winSound: {fileID: 0}
+  winSound: {fileID: 8300000, guid: 2217c060aad205a478fea7cbba9aa436, type: 3}
   winPanel: {fileID: 849487028}
 --- !u!1 &1492367011
 GameObject:
