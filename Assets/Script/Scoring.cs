@@ -11,11 +11,17 @@ public class Scoring : MonoBehaviour
     void Start()
     {
         score = 0;
+        ScoreText.text = "" + score;
     }
 
-    // Update is called once per frame
-    void Update()
+    public void addScore()
     {
+        score+= 10;
+        ScoreText.text = "" + score;
+    }
+
+    public void minScore(){
+        score-= 10;
         ScoreText.text = "" + score;
     }
 }

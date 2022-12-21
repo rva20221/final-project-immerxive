@@ -594,7 +594,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 216984978}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.057, y: 0.116, z: -0}
+  m_LocalPosition: {x: 0.0098, y: 0.0035, z: -0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1264,7 +1264,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 327256194}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 453b72865e122a848be8aa32a668f7b6, type: 3}
   m_Name: 
@@ -15663,8 +15663,8 @@ MonoBehaviour:
   m_SelectEntered:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 327256197}
-        m_TargetAssemblyTypeName: SocketChecking, Assembly-CSharp
+      - m_Target: {fileID: 327256195}
+        m_TargetAssemblyTypeName: Scoring, Assembly-CSharp
         m_MethodName: addScore
         m_Mode: 1
         m_Arguments:
@@ -15678,8 +15678,8 @@ MonoBehaviour:
   m_SelectExited:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 327256197}
-        m_TargetAssemblyTypeName: SocketChecking, Assembly-CSharp
+      - m_Target: {fileID: 327256195}
+        m_TargetAssemblyTypeName: Scoring, Assembly-CSharp
         m_MethodName: minScore
         m_Mode: 1
         m_Arguments:
@@ -17535,8 +17535,8 @@ MonoBehaviour:
   m_SelectEntered:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 327256197}
-        m_TargetAssemblyTypeName: SocketChecking, Assembly-CSharp
+      - m_Target: {fileID: 327256195}
+        m_TargetAssemblyTypeName: Scoring, Assembly-CSharp
         m_MethodName: addScore
         m_Mode: 1
         m_Arguments:
@@ -17550,8 +17550,8 @@ MonoBehaviour:
   m_SelectExited:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 327256197}
-        m_TargetAssemblyTypeName: SocketChecking, Assembly-CSharp
+      - m_Target: {fileID: 327256195}
+        m_TargetAssemblyTypeName: Scoring, Assembly-CSharp
         m_MethodName: minScore
         m_Mode: 1
         m_Arguments:
@@ -18644,8 +18644,8 @@ MonoBehaviour:
   m_SelectEntered:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 327256197}
-        m_TargetAssemblyTypeName: SocketChecking, Assembly-CSharp
+      - m_Target: {fileID: 327256195}
+        m_TargetAssemblyTypeName: Scoring, Assembly-CSharp
         m_MethodName: addScore
         m_Mode: 1
         m_Arguments:
@@ -18659,8 +18659,8 @@ MonoBehaviour:
   m_SelectExited:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 327256197}
-        m_TargetAssemblyTypeName: SocketChecking, Assembly-CSharp
+      - m_Target: {fileID: 327256195}
+        m_TargetAssemblyTypeName: Scoring, Assembly-CSharp
         m_MethodName: minScore
         m_Mode: 1
         m_Arguments:
@@ -22467,8 +22467,8 @@ MonoBehaviour:
   m_SelectEntered:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 327256197}
-        m_TargetAssemblyTypeName: SocketChecking, Assembly-CSharp
+      - m_Target: {fileID: 327256195}
+        m_TargetAssemblyTypeName: Scoring, Assembly-CSharp
         m_MethodName: addScore
         m_Mode: 1
         m_Arguments:
@@ -22482,8 +22482,8 @@ MonoBehaviour:
   m_SelectExited:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 327256197}
-        m_TargetAssemblyTypeName: SocketChecking, Assembly-CSharp
+      - m_Target: {fileID: 327256195}
+        m_TargetAssemblyTypeName: Scoring, Assembly-CSharp
         m_MethodName: minScore
         m_Mode: 1
         m_Arguments:
@@ -24961,8 +24961,8 @@ MonoBehaviour:
   m_SelectEntered:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 327256197}
-        m_TargetAssemblyTypeName: SocketChecking, Assembly-CSharp
+      - m_Target: {fileID: 327256195}
+        m_TargetAssemblyTypeName: Scoring, Assembly-CSharp
         m_MethodName: addScore
         m_Mode: 1
         m_Arguments:
@@ -24976,8 +24976,8 @@ MonoBehaviour:
   m_SelectExited:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 327256197}
-        m_TargetAssemblyTypeName: SocketChecking, Assembly-CSharp
+      - m_Target: {fileID: 327256195}
+        m_TargetAssemblyTypeName: Scoring, Assembly-CSharp
         m_MethodName: minScore
         m_Mode: 1
         m_Arguments:
