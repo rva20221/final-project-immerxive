@@ -516,7 +516,7 @@ AudioSource:
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
-  MinDistance: 1
+  MinDistance: 5.0204496
   MaxDistance: 500
   Pan2D: 0
   rolloffMode: 0
@@ -1370,8 +1370,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ScoreText: {fileID: 362574023}
   score: 0
-  audioPlayer: {fileID: 0}
-  winPanel: {fileID: 0}
+  audioPlayer: {fileID: 115827291}
+  winSound: {fileID: 8300000, guid: 2217c060aad205a478fea7cbba9aa436, type: 3}
+  winPanel: {fileID: 661534048}
 --- !u!4 &327256196
 Transform:
   m_ObjectHideFlags: 0
@@ -1940,7 +1941,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &661534049
 RectTransform:
   m_ObjectHideFlags: 0

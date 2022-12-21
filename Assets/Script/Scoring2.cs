@@ -8,6 +8,7 @@ public class Scoring2 : MonoBehaviour
     public Text ScoreText;
     public float score = 0;
     public AudioSource audioPlayer;
+    public AudioClip winSound;
     public GameObject winPanel;
     // Start is called before the first frame update
     void Start(){
