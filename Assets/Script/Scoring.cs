@@ -7,9 +7,10 @@ public class Scoring : MonoBehaviour
 {
     public Text ScoreText;
     public float score = 0;
+    public AudioSource audioPlayer;
+    public GameObject winPanel;
     // Start is called before the first frame update
-    void Start()
-    {
+    void Start(){
         score = 0;
         ScoreText.text = "" + score;
     }
@@ -24,4 +25,12 @@ public class Scoring : MonoBehaviour
         score-= 10;
         ScoreText.text = "" + score;
     }
+    
+    public void win(){
+        if(score == 50){
+            winPanel.SetActive(true);
+            audioPlayer.Play();
+        }
+    }
+
 }
